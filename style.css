@@ -2,7 +2,6 @@
 
 *{
     font-family: Arial, sans-serif;
-    font-size: 1.2rem;
 }
 
 .titulo-seccion {
@@ -17,3 +16,21 @@ a {
     text-decoration: none; /* Eliminar subrayado */
     font-size: 1.2rem; /* Tamaño de fuente de 1.2rem */
   }
+  
+  body {
+    background-color: #f9f4ef; /* Color de fondo en código hexadecimal */
+  }
+  
+section#education > h2{
+    color:#001858;
+}
+
+#foto-perfil{
+    width: 300px;
+    border: 1pt solid black;
+    padding: 1.1rem;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2px;
+}
