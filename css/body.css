@@ -1,0 +1,34 @@
+
+:root{
+    --box-shadow: 0 .5rem 1rem rgba(.30, .30, .30, .30);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    flex: 20px;
+    background-color: #004643;
+    padding: 20px;
+    margin: 1rem 1rem 2rem;
+    box-shadow: var(--box-shadow);
+}
+
+aside h2{
+    color: #fffffe;
+}
+
+main .content{
+    display: grid;
+    flex: 70%;
+    background-color: #bdc3c7;
+    padding: 20px;
+}
+
+body main .content section{
+    padding: 20px;
+    background-color: #D5F5E3;
+    margin-bottom: 1rem;
+}
