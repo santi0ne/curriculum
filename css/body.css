@@ -1,6 +1,9 @@
 
 :root{
     --box-shadow: 0 .5rem 1rem rgba(.30, .30, .30, .30);
+    --main-color: #004643;
+    --second-color: #f9bc60;
+    --text-color: #fffffe;
 }
 
 .row{
@@ -22,7 +25,7 @@ aside h2{
 
 main .content{
     display: grid;
-    flex: 70%;
+    flex: 55%;
     background-color: #bdc3c7;
     padding: 20px;
 }
@@ -31,4 +34,30 @@ body main .content section{
     padding: 20px;
     background-color: #D5F5E3;
     margin-bottom: 1rem;
+}
+
+aside span{
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+aside .profesion{
+    width: 100%;
+    margin: 0; /* Elimina los márgenes */
+    padding: 0; /* Elimina el relleno interno del cuadro de texto */
+    box-sizing: border-box;
+}
+
+aside .acerca{
+    margin-top: 2rem;
+    color: var(--text-color);
+}
+
+aside .acerca .p-acerca{
+    font-size: 16px;
+    text-align: justify;
+}
+
+aside .contactos{
+    margin-top: 2rem;
 }
