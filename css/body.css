@@ -3,6 +3,7 @@
     --box-shadow: 0 .5rem 1rem rgba(.30, .30, .30, .30);
     --main-color: #004643;
     --second-color: #f9bc60;
+    --third-color: #DAF7A6;
     --text-color: #fffffe;
 }
 
@@ -31,8 +32,9 @@ main .content{
 }
 
 body main .content section{
+    box-shadow: var(--box-shadow);
     padding: 20px;
-    background-color: #D5F5E3;
+    background-color: var(--third-color);
     margin-bottom: 1rem;
 }
 
@@ -60,4 +62,109 @@ aside .acerca .p-acerca{
 
 aside .contactos{
     margin-top: 2rem;
+}
+
+aside .contactos ul{
+    position: relative;
+}
+
+aside .contactos ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+aside .contactos ul li .icon{
+    display: inline-block;
+    width: 40px;
+    font-size: 20px;
+    color: var(--second-color);
+}
+
+.content h2{
+    color: var(--main-color);
+    font-size: 30px;
+    margin: 0.5rem;
+}
+
+.content .title-content{
+    border-bottom: 3px solid var(--main-color);
+}
+
+.content .description{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.content #education .description{
+    display: flex;
+}
+
+.content #education .description .left-side{
+    margin-right: 4rem;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.content #education #mapa{
+    box-shadow: var(--box-shadow);
+    border-radius: 5%;
+}
+
+.content #experiencialab .description{
+    display: flex;
+    flex-direction: column;
+}
+
+.content #experiencialab .description .job{
+    margin-bottom: 1rem;
+}
+
+.content #experiencialab .description .job .lugar{
+    font-weight: bold;
+}
+
+.content #experiencialab .description .job .duracion{
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.content #skills .description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.content #skills .description .skill-title{
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+.content #skills .description .skill-title ol{
+    margin-top: 1rem;
+}
+
+.content #skills .description .skill-title .listado{
+    display: flex;
+    list-style: none;
+}
+
+.content #skills .description .skill-title .listado li{
+    margin-right: 5rem;
+}
+
+.content #referencias .description{
+    display: flex;
+    flex-direction: column;
+}
+
+.content #referencias .description .referencia{
+    margin-bottom: 1rem;
+}
+
+.content #referencias .description .referencia .telefono{
+    color: var(--main-color);
+    font-weight: bold;
 }

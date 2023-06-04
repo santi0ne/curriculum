@@ -69,39 +69,3 @@
   color: var(--style-color);
   transform: scale(1.1);
 }
-
-/*
-.titulo-seccion {
-    font-family: 'Playfair', serif;
-    font-size: 3rem;
-    color:#ff8e3c;
-  }
-  
-h2{
-    font-family: 'Oswald', sans-serif;
-    color:#d9376e;
-}
-
-a {
-    text-decoration: none; /* Eliminar subrayado 
-    font-size: 1.2rem; /* Tamaño de fuente de 1.2rem 
-  }
-  
-  body {
-    background-color: #eff0f3; /* Color de fondo en código hexadecimal 
-  }
-  
-section#education > h2{
-    color:#d9376e;
-}
-
-#foto-perfil{
-    width: 300px;
-    border: 1pt solid black;
-    padding: 1.1rem;
-    margin-top: 10px;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 2px;
-}
-*/
